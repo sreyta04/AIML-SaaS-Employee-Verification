@@ -1,1 +1,1 @@
-# AIML-SaaS-Bank-Upload
+# AIML-SaaS-Bank-Upload Lambda function generates EmployeeSalaryPayment model for an employee under a specific payroll.

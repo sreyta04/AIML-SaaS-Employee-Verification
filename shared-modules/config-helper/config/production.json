@@ -1,0 +1,70 @@
+{
+  "Config": {
+    "envConfig":{
+      "protocol": "https://",
+      "port": {
+        "auth": 3000,
+        "user": 3001,
+        "tenant": 3003,
+        "reg": 3004,
+        "sys": 3011,
+        "outsourcing": 3006
+      },
+      "name": {
+        "auth": "Authentication",
+        "user": "User Manager",
+        "tenant": "Tenant Manager",
+        "reg": "Tenant Registration",
+        "sys": "System Registration"
+      },
+      "table": {
+        "user": "UserProd",
+        "tenant": "TenantProd",
+        "acm": "AccessControlProd",
+        "outsourcing": "OutsourcingProd",
+        "systemResource": "SystemResourceProd",
+        "employment": "EmploymentProd",
+        "payroll": "PayrollProd",
+        "directory": "DirectoryProd",
+        "recruitment": "RecruitmentProd",
+        "reportsAnalytics": "ReportsAnalyticsProd",
+        "leave": "LeaveProd",
+        "workSchedule": "WorkScheduleProd",
+        "workflow": "WorkflowsProd",
+        "scheduledJobs": "ScheduledJobsProd",
+        "otherServices": [
+          "DsaProd",
+          "DirectoryProd",
+          "RecruitmentProd",
+          "OrganizationProd",
+          "AccessControlProd",
+          "OutsourcingProd",
+          "EmploymentProd",
+          "PayrollProd",
+          "LeaveProd",
+          "WorkScheduleProd",
+          "WorkflowsProd",
+          "ReportsAnalyticsProd",
+          "ScheduledJobsProd"
+        ]
+      },
+      "userRole": {
+        "systemAdmin" : "SystemAdmin",
+        "systemUser" : "SystemUser",
+        "tenantAdmin" : "TenantAdmin",
+        "tenantUser" : "TenantUser"
+      },
+      "tier": {
+        "system": "System Tier"
+      },
+      "log": {
+        "level": "debug"
+      },
+      "others": {
+        "loginUrl": "https://aimlapps.cloud",
+        "envName": "Production",
+        "s3BucketSuffix": "prod"
+      }
+    }
+  }
+}

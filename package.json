@@ -1,0 +1,24 @@
+{
+    "name": "AIML-SaaS-Bank-Upload",
+    "description": "To generate & download bank uploads",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "async": "^3.2.4",
+        "aws-sdk": "^2.1209.0",
+        "path": "^0.12.7",
+        "aws-xray-sdk": "^3.3.6",
+        "config": "^3.3.7",
+        "jwt-decode": "^3.1.2",
+        "request": "^2.88.2",
+        "uuid": "^8.3.2",
+        "moment": "^2.29.4",
+        "winston": "^3.8.1"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "scripts": {
+        "test": "jest"
+    }
+}

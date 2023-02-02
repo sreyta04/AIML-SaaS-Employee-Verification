@@ -1,0 +1,70 @@
+{
+  "Config": {
+    "envConfig":{
+      "protocol": "https://",
+      "port": {
+        "auth": 3000,
+        "user": 3001,
+        "tenant": 3003,
+        "reg": 3004,
+        "sys": 3011,
+        "outsourcing": 3006
+      },
+      "name": {
+        "auth": "Authentication",
+        "user": "User Manager",
+        "tenant": "Tenant Manager",
+        "reg": "Tenant Registration",
+        "sys": "System Registration"
+      },
+      "table": {
+        "user": "UserStaging",
+        "tenant": "TenantStaging",
+        "acm": "AccessControlStaging",
+        "outsourcing": "OutsourcingStaging",
+        "systemResource": "SystemResourceStaging",
+        "employment": "EmploymentStaging",
+        "payroll": "PayrollStaging",
+        "directory": "DirectoryStaging",
+        "recruitment": "RecruitmentStaging",
+        "reportsAnalytics": "ReportsAnalyticsStaging",
+        "leave": "LeaveStaging",
+        "workSchedule": "WorkScheduleStaging",
+        "workflow": "WorkflowsStaging",
+        "scheduledJobs": "ScheduledJobsStaging",
+        "otherServices": [
+          "DsaStaging",
+          "DirectoryStaging",
+          "RecruitmentStaging",
+          "OrganizationStaging",
+          "AccessControlStaging",
+          "OutsourcingStaging",
+          "EmploymentStaging",
+          "PayrollStaging",
+          "LeaveStaging",
+          "WorkScheduleStaging",
+          "WorkflowsStaging",
+          "ReportsAnalyticsStaging",
+          "ScheduledJobsStaging"
+        ]
+      },
+      "userRole": {
+        "systemAdmin" : "SystemAdmin",
+        "systemUser" : "SystemUser",
+        "tenantAdmin" : "TenantAdmin",
+        "tenantUser" : "TenantUser"
+      },
+      "tier": {
+        "system": "System Tier"
+      },
+      "log": {
+        "level": "debug"
+      },
+      "others": {
+        "loginUrl": "https://staging.aimlapps.cloud",
+        "envName": "Staging",
+        "s3BucketSuffix": "staging"
+      }
+    }
+  }
+}

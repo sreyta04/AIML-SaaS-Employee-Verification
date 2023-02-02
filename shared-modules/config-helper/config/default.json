@@ -1,0 +1,64 @@
+{
+  "Config": {
+    "envConfig": {
+      "protocol": "http://",
+      "domain": "127.0.0.1",
+      "region": "ap-southeast-1",
+      "aws_account":"711905308000",
+      "port": {
+        "auth": 3000,
+        "user": 3001,
+        "tenant": 3003,
+        "reg": 3004,
+        "sys": 3011,
+        "outsourcing": 3006
+      },
+        "role": {
+          "sns":""
+        },
+      "name": {
+        "auth": "Authentication",
+        "user": "User Manager",
+        "tenant": "Tenant Manager",
+        "reg": "Tenant Registration",
+        "sys": "System Registration"
+      },
+      "table": {
+        "user": "SaaSDevUser",
+        "tenant": "SaaSDevTenant",
+        "acm": "AccessControlDev",
+        "outsourcing": "OutsourcingDev",
+        "systemResource": "SystemResourceDev",
+        "employment": "EmploymentDev",
+        "payroll": "PayrollDev",
+        "otherServices": [
+          "DsaDev",
+          "DirectoryDev",
+          "RecruitmentDev",
+          "OrganizationDev",
+          "AccessControlDev",
+          "OutsourcingDev",
+          "EmploymentDev",
+          "PayrollDev"
+        ]
+      },
+      "userRole": {
+        "systemAdmin" : "SystemAdmin",
+        "systemUser" : "SystemUser",
+        "tenantAdmin" : "TenantAdmin",
+        "tenantUser" : "TenantUser"
+      },
+      "tier": {
+        "system": "System Tier"
+      },
+      "log": {
+        "level": "debug"
+      },
+      "others": {
+        "loginUrl": "https://dev.aimlapps.cloud",
+        "envName": "Development",
+        "s3BucketSuffix": "develop"
+      }
+    }
+  }
+}

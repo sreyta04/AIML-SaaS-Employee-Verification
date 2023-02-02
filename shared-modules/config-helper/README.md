@@ -1,0 +1,1 @@
+# shared-module-config-helper
